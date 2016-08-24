@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alikdex/yii2-toastr "*"
+php composer.phar require --prefer-dist alikdex/toastr "*"
 ```
 
 or add
 
 ```
-"alikdex/yii2-toastr": "*"
+"alikdex/toastr": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,7 +29,7 @@ Usage
 Once the extension is installed, you can test that the extension works by simply use it in your code by  :
 
 ```php
-<?= \alikdex\yii2toastr\Toastr::widget([
+<?= \alikdex\toastr\Toastr::widget([
     'toastType' => 'error',
     'message' => 'This is an error.',
     'customStyle' => false
@@ -54,7 +54,7 @@ $session->setFlash('success', "msg5");
 ?>
 ```
 ```php
-<?= \alikdex\yii2toastr\ToastrAlert::widget([
+<?= \alikdex\toastr\ToastrAlert::widget([
     'options' => [
         'positionClass' => 'toast-bottom-left'
     ]
