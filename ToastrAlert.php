@@ -1,9 +1,9 @@
 <?php
 
-namespace alikdex\yii2-toastr;
+namespace alikdex\toastr;
 
 use Yii;
-use alikdex\yii2-toastr\Toastr;
+use alikdex\toastr\Toastr;
 
 class ToastrAlert extends \yii\base\Widget
 {
