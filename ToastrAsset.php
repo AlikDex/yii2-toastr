@@ -1,6 +1,6 @@
 <?php
 
-namespace alikdex\yii2-toastr;
+namespace alikdex\toastr;
 
 use yii\web\AssetBundle;
 
