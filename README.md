@@ -32,7 +32,6 @@ Once the extension is installed, you can test that the extension works by simply
 <?= \alikdex\toastr\Toastr::widget([
     'toastType' => 'error',
     'message' => 'This is an error.',
-    'customStyle' => false
 ]);?>
 ```
 
