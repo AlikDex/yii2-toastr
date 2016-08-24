@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alikdex/toastr "*"
+php composer.phar require --prefer-dist alikdex/yii2-toastr "*"
 ```
 
 or add
 
 ```
-"alikdex/toastr": "*"
+"alikdex/yii2-toastr": "*"
 ```
 
 to the require section of your `composer.json` file.
