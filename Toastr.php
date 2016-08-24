@@ -1,8 +1,8 @@
 <?php
 
-namespace odaialali\yii2toastr;
+namespace alikdex\toastr;
 
-use alikdex\yii2-toastr\ToastrAsset;
+use alikdex\toastr\ToastrAsset;
 
 use yii\helpers\Json;
 
